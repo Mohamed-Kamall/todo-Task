@@ -1,13 +1,13 @@
 .todo-list-fill{
     display: flex;
-    flex-direction: column;
-    width: 40%;
+    flex-direction: column-reverse;
+    width: 45%;
     border: 2px solid rgb(81, 140, 196);
     margin-top: 20px;
     overflow-y:auto ;
     border-radius: 5px;
-    flex-grow:1;
-    flex-basis:100%;
-    max-height:60vh;
+    flex-grow: 1;
+    flex-basis: 100%;
+    max-height:70vh;
     min-height:auto;
 }

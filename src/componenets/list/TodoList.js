@@ -15,8 +15,8 @@ export default function TodoList({ todo ,setTodo}) {
           <>
             <Task item={item} key={index} removeTask={removeTask} />
           </>
-        ))
-        .reverse()}
+        )).reverse()
+        }
     </div>
   );
 }
