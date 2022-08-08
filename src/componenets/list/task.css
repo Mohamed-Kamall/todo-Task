@@ -1,0 +1,28 @@
+.single-task{
+    display: flex;
+    width: 90%;
+    align-self: center;
+    padding: 15px;
+    margin: 10px 10px;
+    background-color: rgb(32, 85, 109);
+    justify-content: space-between;
+}
+
+.time{
+    align-self: flex-start;
+    color: aliceblue;
+    font-size: 10pt;
+}
+
+.task{
+    color:#e7f2fa ;
+}
+
+.bttn{
+    font-size: 20px;
+    font-weight: 700;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    border: hidden;
+    cursor: pointer;
+}
